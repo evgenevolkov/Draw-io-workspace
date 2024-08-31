@@ -1,10 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="753" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="685" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="EW8P976JrjYgjsArtFcM-0" value="Prices collector&lt;div&gt;1. Calls to source to get prices&lt;/div&gt;&lt;div&gt;2. Once prices received - save to db&lt;/div&gt;&lt;div&gt;3. Add source (s)&lt;/div&gt;&lt;div&gt;4. Remove source(s)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Source should have: endpoint, token, interval&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="EW8P976JrjYgjsArtFcM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW8P976JrjYgjsArtFcM-0" target="EW8P976JrjYgjsArtFcM-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="305" />
+              <mxPoint x="880" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW8P976JrjYgjsArtFcM-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="305" />
+              <mxPoint x="880" y="321" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW8P976JrjYgjsArtFcM-0" target="EW8P976JrjYgjsArtFcM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW8P976JrjYgjsArtFcM-0" target="EW8P976JrjYgjsArtFcM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EW8P976JrjYgjsArtFcM-0" target="EW8P976JrjYgjsArtFcM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-0" value="&lt;b&gt;Prices collector&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;1. Calls to source to get prices&lt;/div&gt;&lt;div&gt;2. Once prices received - save to db&lt;/div&gt;&lt;div&gt;3. Add source (s)&lt;/div&gt;&lt;div&gt;4. Remove source(s)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Source should have: endpoint, token, interval&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="590" y="200" width="210" height="210" as="geometry" />
         </mxCell>
         <mxCell id="EW8P976JrjYgjsArtFcM-1" value="Postgres DB&lt;div&gt;1. Prices&lt;/div&gt;&lt;div&gt;2. Accounts&lt;/div&gt;&lt;div&gt;3. Operation&lt;/div&gt;&lt;div&gt;4. Endpoints&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -28,7 +54,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EW8P976JrjYgjsArtFcM-11" value="Exponential retry mechanism&lt;div&gt;Alert if no response over threshold&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="515" y="423" width="210" height="60" as="geometry" />
+          <mxGeometry x="580" y="423" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-18" value="Alerts handler" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="635" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-20" value="Users simulator&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Set orders:&amp;nbsp;&lt;/div&gt;&lt;div&gt;- get current account info&lt;/div&gt;&lt;div&gt;- buy&amp;nbsp;&lt;/div&gt;&lt;div&gt;- sell&lt;/div&gt;&lt;div&gt;- deposit&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1030" y="590" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-24" value="&lt;b&gt;Orders executor(s)&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="605" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-25" value="Orders queue manager" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="590" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-23" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Receives tasks&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Prioritise tasks&lt;/div&gt;&lt;div&gt;Send tasks to execute&lt;/div&gt;&lt;div&gt;Keeps tracks of tasks responses&lt;/div&gt;&lt;div&gt;Notify users on task execution result:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Succesfull&lt;/div&gt;&lt;div&gt;In queue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Future: discard tasks&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EW8P976JrjYgjsArtFcM-25">
+          <mxGeometry y="20" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-26" value="Manual prices source:&lt;div&gt;no responce&lt;/div&gt;&lt;div&gt;incorrect responce&lt;/div&gt;&lt;div&gt;abnormal response&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="960" y="80" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-29" value="Arbitrage detector" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="900" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-30" value="Receives prices&lt;div&gt;Detects margin&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EW8P976JrjYgjsArtFcM-29">
+          <mxGeometry y="30" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-31" value="Properties&lt;div&gt;Margin threshold&lt;/div&gt;&lt;div&gt;Subscribed users&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EW8P976JrjYgjsArtFcM-29">
+          <mxGeometry y="100" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-33" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EW8P976JrjYgjsArtFcM-29">
+          <mxGeometry y="170" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EW8P976JrjYgjsArtFcM-32" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EW8P976JrjYgjsArtFcM-29">
+          <mxGeometry y="200" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
